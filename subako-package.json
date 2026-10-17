@@ -1,5 +1,5 @@
 {
 	"abi": 1,
 	"name": "my-function",
-	"description": "Looks up GitHub repositories."
+	"description": "Adds two numbers."
 }

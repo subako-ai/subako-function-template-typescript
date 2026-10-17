@@ -1,8 +1,12 @@
 {
 	"compilerOptions": {
 		"target": "ES2023",
-		"lib": ["ES2023"],
-		"types": ["@subako-ai/function-sdk/env"],
+		"lib": [
+			"ES2023"
+		],
+		"types": [
+			"@subako-ai/function-sdk/env"
+		],
 		"module": "ESNext",
 		"moduleResolution": "Bundler",
 		"strict": true,
@@ -11,5 +15,7 @@
 		"skipLibCheck": true,
 		"noEmit": true
 	},
-	"include": ["src", "test"]
+	"include": [
+		"src"
+	]
 }
