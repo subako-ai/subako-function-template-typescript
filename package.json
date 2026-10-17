@@ -1,0 +1,16 @@
+{
+	"name": "my-function",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "npx @subako-ai/function-sdk build",
+		"typecheck": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@subako-ai/function-sdk": "^0.1.2",
+		"zod": "^4.6.7"
+	},
+	"devDependencies": {
+		"typescript": "^7"
+	}
+}
